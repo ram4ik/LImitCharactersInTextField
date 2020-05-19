@@ -13,6 +13,7 @@
 		95FE01D92474068C000BA994 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95FE01D82474068C000BA994 /* Assets.xcassets */; };
 		95FE01DC2474068C000BA994 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95FE01DB2474068C000BA994 /* Preview Assets.xcassets */; };
 		95FE01DF2474068C000BA994 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95FE01DD2474068C000BA994 /* LaunchScreen.storyboard */; };
+		95FE01E7247406C2000BA994 /* TextFieldManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FE01E6247406C2000BA994 /* TextFieldManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		95FE01DB2474068C000BA994 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		95FE01DE2474068C000BA994 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95FE01E02474068C000BA994 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95FE01E6247406C2000BA994 /* TextFieldManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				95FE01DD2474068C000BA994 /* LaunchScreen.storyboard */,
 				95FE01E02474068C000BA994 /* Info.plist */,
 				95FE01DA2474068C000BA994 /* Preview Content */,
+				95FE01E6247406C2000BA994 /* TextFieldManager.swift */,
 			);
 			path = LImitCharactersInTextField;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				95FE01D32474068B000BA994 /* AppDelegate.swift in Sources */,
+				95FE01E7247406C2000BA994 /* TextFieldManager.swift in Sources */,
 				95FE01D52474068B000BA994 /* SceneDelegate.swift in Sources */,
 				95FE01D72474068B000BA994 /* ContentView.swift in Sources */,
 			);

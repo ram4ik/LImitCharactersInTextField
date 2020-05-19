@@ -9,8 +9,16 @@
 import SwiftUI
 
 struct ContentView: View {
+
+    @ObservedObject var textFieldManager = TextFieldManager()
+    
     var body: some View {
-        Text("Hello, World!")
+        TextField("Enter something...", text: $textFieldManager.userInput)
+            .padding()
+            .background(Color(red: 239/255, green: 243/255, blue: 244/255))
+            .cornerRadius(10)
+            .padding()
+        
     }
 }
 
